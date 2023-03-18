@@ -1,0 +1,59 @@
+.info {
+    border: 3px solid black;
+    height: 340px;
+}
+.Address {
+    border: 3px solid black;
+    height: 390px;
+    position: relative;
+    top: -25px;
+}
+.fullinfohead {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    gap: 10px;
+    margin: 30px;
+}
+.full{
+     padding-left: 250px;
+    padding-right: 250px;
+    border: 3px solid rgba(0, 0, 0, 0.347);
+}
+.FriendBox {
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        position: relative;
+        gap:30px;  
+}
+.underline{
+    text-decoration: underline;
+
+}
+@media only screen and (max-width: 1200px) {
+    .full{
+        padding-left: 0px;
+       padding-right: 0px;
+       border: 3px solid rgba(0, 0, 0, 0.347);
+   }
+    .fullinfohead {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 30px;
+        position: relative;
+    }
+    .info {
+        border: 3px solid black;
+        height: 340px;
+        width: 100%;
+        
+    }
+    .FriendBox {
+        display: grid;
+        grid-template-columns: auto auto ;
+        position: relative;
+        gap:30px;  
+}
+  }
+
+  @media only screen and (max-width: 600px) {
+  }
